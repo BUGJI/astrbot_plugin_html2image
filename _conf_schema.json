@@ -1,0 +1,20 @@
+{
+  "checker": {
+    "description": "检查代码",
+    "type": "bool",
+    "hint": "开启后会检查代码中是否包含必要的标签 <svg> 或 <html>",
+    "default": false
+  },
+  "device_scale_factor": {
+    "description": "设备像素比",
+    "type": "int",
+    "hint": "控制输出图片的清晰度，值越大越清晰，但也会增加资源消耗，默认 2",
+    "default": 2
+  },
+  "max_dimension": {
+    "description": "最大分辨率限制",
+    "type": "int",
+    "hint": "限制生成图片的最大宽高，不会引发错误，过大可能导致性能问题",
+    "default": 20000
+  }
+}
