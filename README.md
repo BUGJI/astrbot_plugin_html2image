@@ -1,5 +1,9 @@
+<div>
+  
 # astrbot_plugin_html2image
-
+  
+  <img src="./logo.png" width="250" height="250" alt="这个插件LOGO是由这个插件制作的" align="right"/>
+  
 让 AI 通过 HTML / SVG 代码绘制图像，返回 PNG 图片。
 
 可以以 Chromium 为渲染器用代码制作图片，几乎兼容所有文字推理AI
@@ -66,3 +70,5 @@ AI 调用 `draw_by_chrome` 工具时会传入以下参数：
 | `transparent_bg` | bool | `false` | 是否使用透明背景 |
 
 调用后再拉起一个浏览器，当作网页渲染，截图，即可生成内容
+
+</div>
